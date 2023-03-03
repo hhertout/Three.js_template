@@ -3,7 +3,7 @@
 An exemple is include. Tune it as your wish
 
 
-# Setup
+## Setup
 
 - <code>npm install</code><br>
 - <code>npm run dev</code>
