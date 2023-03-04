@@ -1,4 +1,4 @@
-import Experience from "../Experience";
+import App from "../App";
 import * as THREE from "three"
 import {WebGLRenderer} from "three";
 
@@ -10,7 +10,7 @@ export default class Renderer {
     public camera
     public instance?: WebGLRenderer
 
-    constructor(experience: Experience) {
+    constructor(experience: App) {
         this.experience = experience
         this.canvas = this.experience.canvas
         this.sizes = this.experience.sizes

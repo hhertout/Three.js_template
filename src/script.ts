@@ -1,10 +1,10 @@
 import "./style.css"
 
-import Experience from "./Experience/Experience"
+import App from "./ThreeApp/App"
 
 
 const canvas = document.querySelector<HTMLCanvasElement>('canvas.webgl')
 
 if (canvas) {
-    new Experience(canvas)
+    new App(canvas)
 }

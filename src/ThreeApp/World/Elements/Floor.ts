@@ -1,9 +1,9 @@
-import Experience from "../../Experience";
+import App from "../../App";
 import * as THREE from "three"
 import {CircleGeometry, Material, Mesh, Scene} from "three";
 
 export default class Floor {
-    public experience: Experience
+    public experience: App
     public scene: Scene
     public resources
     public geometry?: CircleGeometry
@@ -11,7 +11,7 @@ export default class Floor {
     public material?: Material
     public mesh?: Mesh
 
-    constructor(experience: Experience) {
+    constructor(experience: App) {
         this.experience = experience
         this.scene = this.experience.scene
         this.resources = this.experience.resources

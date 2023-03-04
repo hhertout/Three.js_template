@@ -1,4 +1,4 @@
-import Experience from "../Experience"
+import App from "../App"
 import * as THREE from "three"
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js"
 import { PerspectiveCamera } from "three"
@@ -11,7 +11,7 @@ export default class Camera {
   public instance?: PerspectiveCamera
   public controls?: OrbitControls
 
-  constructor(experience: Experience) {
+  constructor(experience: App) {
     this.experience = experience
     this.sizes = this.experience.sizes
     this.scene = this.experience.scene

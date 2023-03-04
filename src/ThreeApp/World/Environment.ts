@@ -1,4 +1,4 @@
-import Experience from "../Experience";
+import App from "../App";
 import * as THREE from "three"
 import {DirectionalLight} from "three";
 
@@ -11,7 +11,7 @@ export default class Environment {
     public debug
     public debugFolder
 
-    constructor(experience: Experience) {
+    constructor(experience: App) {
         this.experience = experience
         this.scene = this.experience.scene
         this.resources = this.experience.resources

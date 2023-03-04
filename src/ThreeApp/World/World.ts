@@ -1,4 +1,4 @@
-import Experience from "../Experience";
+import App from "../App";
 import Environment from "./Environment";
 import Floor from "./Elements/Floor";
 import Fox from "./Elements/Fox";
@@ -11,7 +11,7 @@ export default class World {
     public floor?: Floor
     public fox?: Fox
 
-    constructor(experience: Experience) {
+    constructor(experience: App) {
         this.experience = experience
         this.scene = this.experience.scene
         this.resources = this.experience.resources

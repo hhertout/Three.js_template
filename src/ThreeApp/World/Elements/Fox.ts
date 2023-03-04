@@ -1,9 +1,9 @@
-import Experience from "../../Experience";
+import App from "../../App";
 import {Object3D, Scene} from "three";
 import * as THREE from "three"
 
 export default class Fox {
-    public experience: Experience
+    public experience: App
     public scene: Scene
     public resources
     public resource
@@ -13,7 +13,7 @@ export default class Fox {
     public debug
     public debugFolder
 
-    constructor(experience: Experience) {
+    constructor(experience: App) {
         this.experience = experience
         this.scene = this.experience.scene
         this.resources = this.experience.resources

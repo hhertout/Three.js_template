@@ -9,7 +9,7 @@ import sources from "./Resources/sources"
 import Debug from "./Utils/Debug";
 import {Object3D} from "three";
 
-export default class Experience {
+export default class App {
     //Base
     public canvas
     public sizes
